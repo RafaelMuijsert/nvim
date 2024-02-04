@@ -9,8 +9,8 @@ local options = {
     tabstop = 4,                -- Insert four spaces for a tab.
 
     -- Line options
-    wrap = false,				-- Disable text wrapping.
-    colorcolumn = "80",			-- Mark the 80th column.
+    wrap = false,               -- Disable text wrapping.
+    colorcolumn = "80",         -- Mark the 80th column.
 
     -- File save options
     undofile = true,            -- Enable persistent undo.
@@ -19,6 +19,7 @@ local options = {
     ignorecase = true,          -- Enable case-insensitive search.
 }
 
+-- Set each option
 for key, value in pairs(options) do
     vim.opt[key] = value
 end
