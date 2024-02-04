@@ -2,6 +2,7 @@
 -- To enable or disable modules, edit this table.
 local enabled_modules = {
     "core",
+    "programming",
 }
 
 -- Each plugin and their setup.
