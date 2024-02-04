@@ -6,6 +6,7 @@ return {
 			formatters_by_ft = {
 				lua = { "stylua" },
 				python = { "isort", "black" },
+				html = { "prettier" },
 			},
 			-- Automatically format on save
 			format_on_save = {
