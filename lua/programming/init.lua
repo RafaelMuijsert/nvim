@@ -1,3 +1,3 @@
 return {
-    require "programming.plugins"
+	require("programming.plugins"),
 }
