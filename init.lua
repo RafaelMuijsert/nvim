@@ -1,8 +1,10 @@
 -- Load enabled modules.
 -- To enable or disable modules, edit this table.
 local enabled_modules = {
+	"academia",
 	"core",
 	"programming",
+	"style",
 }
 
 -- Each plugin and their setup.
